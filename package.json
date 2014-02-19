@@ -17,7 +17,7 @@
   "dependencies": {
     "commander": "~2.1.0",
     "minimatch": "~0.2.14",
-    "line-reader": "~0.2.3"
+    "line-by-line": "~0.1.1"
   },
   "devDependencies": {
     "mocha": "~1.17.1"
