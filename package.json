@@ -15,10 +15,13 @@
     "example": "examples"
   },
   "dependencies": {
+    "commander": "~2.1.0",
     "minimatch": "~0.2.14",
-    "commander": "~2.1.0"
+    "line-reader": "~0.2.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "~1.17.1"
+  },
   "scripts": {
     "test": "mocha -R spec"
   },
