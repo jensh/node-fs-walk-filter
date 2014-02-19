@@ -1,8 +1,16 @@
 {
   "name": "fs-walk-filter",
   "version": "0.0.1",
+  "author": {
+    "name": "Jens Hauke",
+    "email": "jens@4k2.de"
+  },
   "description": "Filesystem walker with asynchronous filters.",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jensh/node-fs-walk-filter.git"
+  },
   "directories": {
     "example": "examples"
   },
@@ -12,9 +20,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R spec"
   },
-  "repository": "",
   "keywords": [
     "walk",
     "find",
@@ -22,7 +29,6 @@
     "filesystem",
     "fs"
   ],
-  "author": "Jens Hauke",
   "license": "BSD",
   "readmeFilename": "README.md"
 }
