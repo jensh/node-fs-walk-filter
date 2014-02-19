@@ -4,6 +4,7 @@ var filter = require("./lib/filter");
 
 module.exports = {
 	walk: walk,
+	filter: filter,
 };
 
 // Merge with filter
